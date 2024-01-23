@@ -20,4 +20,4 @@ services:
          # - SERVER_PASSWORD="worldofpals"
          # - SERVER_NAME="World of Pals"
       volumes:
-              - ./palworld:/palworld/
+         - ./palworld:/palworld/
