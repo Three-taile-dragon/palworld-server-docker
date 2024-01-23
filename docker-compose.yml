@@ -1,6 +1,6 @@
 services:
    palworld:
-      image: thijsvanloef/palworld-server-docker:latest
+      image: dragonssr/palworld-server-docker:latest
       restart: unless-stopped
       container_name: palworld-server
       ports:
@@ -20,4 +20,4 @@ services:
          # - SERVER_PASSWORD="worldofpals"
          # - SERVER_NAME="World of Pals"
       volumes:
-         - ./palworld:/palworld/
+              - ./palworld:/palworld/

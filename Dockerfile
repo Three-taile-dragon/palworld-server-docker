@@ -1,4 +1,4 @@
-FROM cm2network/steamcmd:root
+FROM dragonssr/steamcmd:latest
 LABEL maintainer="thijs@loef.dev"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
